@@ -2,11 +2,12 @@ django-likeable
 ===============
 
 Adds "liking" functionality which aims to be scale-friendly
-(see `django-nonrel <http://www.allbuttonspressed.com/projects/django-nonrel>`_).
-Note that this app is not yet tested at scale, but will be at some point in the
-near future.
+(see `django-nonrel <http://www.allbuttonspressed.com/projects/django-nonrel>`_)
+by favouring abstract classes instead of direct class inheritance when
+facilitating liking.
 
-In the meantime, it simply adds "liking" functionality to your models.
+Note that this app is not yet tested at scale, but will be at some point in the
+near future. In the meantime, it simply adds "liking" functionality to your models.
 
 Quick Installation
 ------------------
