@@ -97,3 +97,13 @@ positive integers). This function returns a JSON object of the format
 ``{'success': true}`` upon success. If no object matching the given criteria is
 found, an HTTP 404 error will be generated.
 
+Other Batteries Included
+------------------------
+
+``likeable.views.get_like_view_params(obj)``
+
+``obj`` must be any object registered with the ``contenttypes`` framework.
+On success, this shortcut function will return a tuple containing first the
+content type ID primary key as well as the object's primary key, which can
+then simply be passed to one of the ``django-likeable`` views.
+
